@@ -1,0 +1,47 @@
+textarea {
+    margin: 5px 0;
+    width: 196px;
+    height: 34px;
+    border: 1px solid black;
+    border-radius: 4px;
+    }
+input[type="text"] {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+    
+    }
+    
+input {
+    border: 2px solid black;
+    border-radius: 4px;
+    
+    }
+    
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    
+    }
+    
+.content {
+    width: 960px;
+    height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+a{
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ff0000;
+    font-size: 20px;
+}
+.link {color: #fbff01;}

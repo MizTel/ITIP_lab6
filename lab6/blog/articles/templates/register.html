@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ STATIC_URL }}/static/reg.css">
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <a class="link" href="http://127.0.0.1:8000">Все статьи</a>
+        <a class="link" href="http://127.0.0.1:8000/authorization/">Авторизация</a>
+        <div class="content">
+            <h1>Регистрация</h1>
+            <form method="POST">
+                {% csrf_token %}
+                <input type="text" name="username" placeholder="Логин" value="" >
+                <input type="text" name="mail" placeholder="Почта" value="" >
+                <input type="text" name="password" placeholder="Пароль" value="" >
+                <button type="submit" >Регистрация</button>
+            </form>
+            <div class="errors">{{ form.errors }}</div>
+        </div>
+    </body>
+</html>
